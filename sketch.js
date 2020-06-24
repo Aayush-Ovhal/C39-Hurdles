@@ -17,11 +17,11 @@ var athletes = [];
 var hurdles = [];
 
 function preload(){
-  bgImg = loadImage("images/background.jpg");
-  athCNates = loadJSON('images/athlete.json');
-  ath1Img = loadImage('images/testSonic.png');
+  bgImg = loadImage("background.jpg");
+  athCNates = loadJSON('athlete.json');
+  ath1Img = loadImage('testSonic.png');
 
-  hurdleImg = loadImage('images/obstacle.png');
+  hurdleImg = loadImage('obstacle.png');
 }
 
 function setup(){
